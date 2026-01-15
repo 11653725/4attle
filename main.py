@@ -72,7 +72,7 @@ def begin():
             print(f"The number was {secret}!")
             return  # or quit()
 
-        guess_val = int(g) # put into int 🥺
+        guess_val = int(g)  # changed into int 🥺
 
         bull_cow = cownbull(secret, guess_val)
 
@@ -121,11 +121,10 @@ def start():
     print(divider)
 
     print("Welcome to 4attle! a Bull & Cows remake playable in the console. " \
-    "Write 'start' to begin the game and write a 4 digit number. Write 'exit' to quit the game. Go ahead and guess!")
+    "Write 4 digit number to start. Write 'exit' to quit the game. Go ahead and guess!")
     
     print(divider)
     begin()
-
 
 
 
