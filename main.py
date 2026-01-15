@@ -72,7 +72,7 @@ def begin():
             print(f"The number was {secret}!")
             return  # or quit()
 
-        guess_val = int(g)  # safe to convert now
+        guess_val = int(g) # put into int 🥺
 
         bull_cow = cownbull(secret, guess_val)
 
@@ -125,6 +125,7 @@ def start():
     
     print(divider)
     begin()
+
 
 
 
